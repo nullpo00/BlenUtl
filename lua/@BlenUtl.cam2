@@ -1,0 +1,12 @@
+@CameraUp
+--information:カメラ上方向ベクトル for BlenUtl
+--label:BlenUtl
+
+--track@ux:X, -1, 1, 0, 0.01
+--track@uy:Y, -1, 1, 0, 0.01
+--track@uz:Z, -1, 1, 0, 0.01
+cam = obj.getoption("camera_param")
+cam.ux = ux
+cam.uy = uy
+cam.uz = uz
+obj.setoption("camera_param", cam)

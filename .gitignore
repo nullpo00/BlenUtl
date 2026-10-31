@@ -1,0 +1,12 @@
+.vs/
+x64/
+build/
+release/
+bpy/*.json
+*.slnx
+
+src/x64/
+src/framework*
+src/pch*
+*.vcxproj*
+*.aps
